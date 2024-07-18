@@ -50,6 +50,7 @@ p {
 }
 
 /* The div container constrains the content width within the main container to 600px */
+
 div {
   text-align: center;
   margin: auto;
@@ -71,4 +72,46 @@ hr {
 .image-circle {
   border-radius: 50%;
   border: 2px solid #003049
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+}
+
+ol {
+  list-style-position: inside;
+  text-align: left;
+}
+.about-text {
+  text-align: left;
+}
+
+.contact-text{
+  text-align: center;
+  width: 25%
+}
+
+li .contact-text {
+  text-align: left
+}
+
+.bg-text {
+  text-align:left;
+}
+
+.portfolioText1 {
+  text-align:left;
+}
+
+.portfolioText2 {
+  text-align:left;
+}
+
+.portfolioText3 {
+  text-align:left;
+}
+
+.nav-link {
+  margin: 0 10px;
 }
